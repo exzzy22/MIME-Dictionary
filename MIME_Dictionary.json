@@ -1,0 +1,310 @@
+[
+  {
+    "Extension": ".aac",
+    "MimeType": "audio/aac"
+  },
+  {
+    "Extension": ".abw",
+    "MimeType": "application/x-abiword"
+  },
+  {
+    "Extension": ".arc",
+    "MimeType": "application/x-freearc"
+  },
+  {
+    "Extension": ".avi",
+    "MimeType": "video/x-msvideo"
+  },
+  {
+    "Extension": ".azw",
+    "MimeType": "application/vnd.amazon.ebook"
+  },
+  {
+    "Extension": ".bin",
+    "MimeType": "application/octet-stream"
+  },
+  {
+    "Extension": ".bmp",
+    "MimeType": "image/bmp"
+  },
+  {
+    "Extension": ".bz",
+    "MimeType": "application/x-bzip"
+  },
+  {
+    "Extension": ".bz2",
+    "MimeType": "application/x-bzip2"
+  },
+  {
+    "Extension": ".csh",
+    "MimeType": "application/x-csh"
+  },
+  {
+    "Extension": ".css",
+    "MimeType": "text/css"
+  },
+  {
+    "Extension": ".csv",
+    "MimeType": "text/csv"
+  },
+  {
+    "Extension": ".doc",
+    "MimeType": "application/msword"
+  },
+  {
+    "Extension": ".docx",
+    "MimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  {
+    "Extension": ".eot",
+    "MimeType": "application/vnd.ms-fontobject"
+  },
+  {
+    "Extension": ".epub",
+    "MimeType": "application/epub+zip"
+  },
+  {
+    "Extension": ".gz",
+    "MimeType": "application/gzip"
+  },
+  {
+    "Extension": ".gif",
+    "MimeType": "image/gif"
+  },
+  {
+    "Extension": ".htm",
+    "MimeType": "text/html"
+  },
+  {
+    "Extension": ".html",
+    "MimeType": ""
+  },
+  {
+    "Extension": ".ico",
+    "MimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "Extension": ".ics",
+    "MimeType": "text/calendar"
+  },
+  {
+    "Extension": ".jar",
+    "MimeType": "application/java-archive"
+  },
+  {
+    "Extension": ".jpeg",
+    "MimeType": "image/jpeg"
+  },
+  {
+    "Extension": ".jpg",
+    "MimeType": ""
+  },
+  {
+    "Extension": ".js",
+    "MimeType": "text/javascript"
+  },
+  {
+    "Extension": ".json",
+    "MimeType": "application/json"
+  },
+  {
+    "Extension": ".jsonld",
+    "MimeType": "application/ld+json"
+  },
+  {
+    "Extension": ".mid",
+    "MimeType": "audio/midi audio/x-midi"
+  },
+  {
+    "Extension": ".midi",
+    "MimeType": ""
+  },
+  {
+    "Extension": ".mjs",
+    "MimeType": "text/javascript"
+  },
+  {
+    "Extension": ".mp3",
+    "MimeType": "audio/mpeg"
+  },
+  {
+    "Extension": ".mpeg",
+    "MimeType": "video/mpeg"
+  },
+  {
+    "Extension": ".mpkg",
+    "MimeType": "application/vnd.apple.installer+xml"
+  },
+  {
+    "Extension": ".odp",
+    "MimeType": "application/vnd.oasis.opendocument.presentation"
+  },
+  {
+    "Extension": ".ods",
+    "MimeType": "application/vnd.oasis.opendocument.spreadsheet"
+  },
+  {
+    "Extension": ".odt",
+    "MimeType": "application/vnd.oasis.opendocument.text"
+  },
+  {
+    "Extension": ".oga",
+    "MimeType": "audio/ogg"
+  },
+  {
+    "Extension": ".ogv",
+    "MimeType": "video/ogg"
+  },
+  {
+    "Extension": ".ogx",
+    "MimeType": "application/ogg"
+  },
+  {
+    "Extension": ".opus",
+    "MimeType": "audio/opus"
+  },
+  {
+    "Extension": ".otf",
+    "MimeType": "font/otf"
+  },
+  {
+    "Extension": ".png",
+    "MimeType": "image/png"
+  },
+  {
+    "Extension": ".pdf",
+    "MimeType": "application/pdf"
+  },
+  {
+    "Extension": ".php",
+    "MimeType": "application/x-httpd-php"
+  },
+  {
+    "Extension": ".ppt",
+    "MimeType": "application/vnd.ms-powerpoint"
+  },
+  {
+    "Extension": ".pptx",
+    "MimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "Extension": ".rar",
+    "MimeType": "application/vnd.rar"
+  },
+  {
+    "Extension": ".rtf",
+    "MimeType": "application/rtf"
+  },
+  {
+    "Extension": ".sh",
+    "MimeType": "application/x-sh"
+  },
+  {
+    "Extension": ".svg",
+    "MimeType": "image/svg+xml"
+  },
+  {
+    "Extension": ".swf",
+    "MimeType": "application/x-shockwave-flash"
+  },
+  {
+    "Extension": ".tar",
+    "MimeType": "application/x-tar"
+  },
+  {
+    "Extension": ".tif",
+    "MimeType": "image/tiff"
+  },
+  {
+    "Extension": ".tiff",
+    "MimeType": ""
+  },
+  {
+    "Extension": ".ts",
+    "MimeType": "video/mp2t"
+  },
+  {
+    "Extension": ".ttf",
+    "MimeType": "font/ttf"
+  },
+  {
+    "Extension": ".txt",
+    "MimeType": "text/plain"
+  },
+  {
+    "Extension": ".vsd",
+    "MimeType": "application/vnd.visio"
+  },
+  {
+    "Extension": ".wav",
+    "MimeType": "audio/wav"
+  },
+  {
+    "Extension": ".weba",
+    "MimeType": "audio/webm"
+  },
+  {
+    "Extension": ".webm",
+    "MimeType": "video/webm"
+  },
+  {
+    "Extension": ".webp",
+    "MimeType": "image/webp"
+  },
+  {
+    "Extension": ".woff",
+    "MimeType": "font/woff"
+  },
+  {
+    "Extension": ".woff2",
+    "MimeType": "font/woff2"
+  },
+  {
+    "Extension": ".xhtml",
+    "MimeType": "application/xhtml+xml"
+  },
+  {
+    "Extension": ".xls",
+    "MimeType": "application/vnd.ms-excel"
+  },
+  {
+    "Extension": ".xlsx",
+    "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  {
+    "Extension": ".xml",
+    "MimeType": "application/xml"
+  },
+  {
+    "Extension": ".xml",
+    "MimeType": "text/xml"
+  },
+  {
+    "Extension": ".xul",
+    "MimeType": "application/vnd.mozilla.xul+xml"
+  },
+  {
+    "Extension": ".zip",
+    "MimeType": "application/zip"
+  },
+  {
+    "Extension": ".3gp",
+    "MimeType": "video/3gpp"
+  },
+  {
+    "Extension": ".3gp",
+    "MimeType": "audio/3gpp"
+  },
+  {
+    "Extension": ".3g2",
+    "MimeType": "video/3gpp2"
+  },
+  {
+    "Extension": ".3g2",
+    "MimeType": "audio/3gpp2"
+  },
+  {
+    "Extension": ".7z",
+    "MimeType": "application/x-7z-compressed"
+  }
+]
