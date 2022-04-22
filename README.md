@@ -1,2 +1,2 @@
 # MIME-Dictionary
-MIME Dictionary in JSON and C# file
+MIME Dictionary with most common types in JSON and C# file format
