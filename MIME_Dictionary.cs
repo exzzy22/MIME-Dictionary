@@ -2,7 +2,7 @@
 
 public static class MimeTypes
 {
-    public static Dictionary<string, List<string>> MimeDictionary { get; set; } = new();
+    public static Dictionary<string,List<string>> MimeDictionary { get; set; } = new ();
 
     static MimeTypes()
     {
@@ -75,7 +75,7 @@ public static class MimeTypes
         MimeDictionary.Add(".xhtml", new List<string> { "application/xhtml+xml" });
         MimeDictionary.Add(".xls", new List<string> { "application/vnd.ms-excel" });
         MimeDictionary.Add(".xlsx", new List<string> { "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
-        MimeDictionary.Add(".xml", new List<string> { "text/xml" });
+        MimeDictionary.Add(".xml", new List<string> { "application/xml" });
         MimeDictionary.Add(".xul", new List<string> { "application/vnd.mozilla.xul+xml" });
         MimeDictionary.Add(".zip", new List<string> { "application/zip" });
         MimeDictionary.Add(".3gp", new List<string> { "video/3gpp" });
@@ -83,12 +83,9 @@ public static class MimeTypes
         MimeDictionary.Add(".7z", new List<string> { "application/x-7z-compressed" });
 
         // Extensions with multiple MIME types
-        MimeDictionary[".xml"].Add("application/xml");
+        MimeDictionary[".xml"].Add("text/xml");
         MimeDictionary[".3gp"].Add("audio/3gpp");
         MimeDictionary[".3g2"].Add("audio/3gpp2");
-
-
-
 
         #endregion
     }
@@ -97,8 +94,8 @@ public static class MimeTypes
     /// </summary>
     /// <param name="extension"></param>
     /// <returns>MIME type</returns>
-    public static string GetMimeType(this string extension)
-    {
+    public static string MimeGetType(this string extension)
+    { 
         return MimeDictionary[extension][0];
     }
     /// <summary>
@@ -106,7 +103,7 @@ public static class MimeTypes
     /// </summary>
     /// <param name="extension"></param>
     /// <returns></returns>
-    public static List<string> GetMimeTypeS(this string extension)
+    public static List<string> MimeGetTypes(this string extension)
     {
         return MimeDictionary[extension];
     }
@@ -115,7 +112,7 @@ public static class MimeTypes
     /// </summary>
     /// <param name="mimeType"></param>
     /// <returns>extension</returns>
-    public static string GetExtension(this string mimeType)
+    public static string MimeGetExtension(this string mimeType)
     {
         return MimeDictionary.First(x => x.Value.Contains(mimeType)).Key;
     }
